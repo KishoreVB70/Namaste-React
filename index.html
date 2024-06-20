@@ -7,15 +7,13 @@
 </head>
 <body>
     <div id="root">
-        <h1 id = "bot"></h1>
     </div>
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
-    let division = document.getElementById("root");
-    heading = document.createElement("h1"); 
-    heading.innerHTML = "Hello world";
-    division.appendChild(heading);
+    const heading = React.createElement("h1", {}, "H World");
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
 </script>
 </body>
 </html>
