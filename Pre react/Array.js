@@ -17,9 +17,13 @@ function ofinLoops() {
     }
 }
 
-
-
 // Spread operator
 let arr1 = [1,2];
 arr = [...arr, ...arr1];
 console.log(arr);
+
+// Rest parameter
+function rest(a,b,c,...z) {
+    console.log(z)
+}
+rest(1,2,3,4,5,6,7,8,9,0);
