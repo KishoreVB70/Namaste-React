@@ -10,15 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/KishoreVB70/Namaste-React.git"
   },
-  "keywords": [
-    "Js",
-    "React",
-    "Kishore"
-  ],
+  "keywords": [],
   "author": "Kishore",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KishoreVB70/Namaste-React/issues"
   },
-  "homepage": "https://github.com/KishoreVB70/Namaste-React#readme"
+  "homepage": "https://github.com/KishoreVB70/Namaste-React#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
 }
