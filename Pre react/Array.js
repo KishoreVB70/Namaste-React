@@ -27,3 +27,9 @@ function rest(a,b,c,...z) {
     console.log(z)
 }
 rest(1,2,3,4,5,6,7,8,9,0);
+
+// Deconstructing assignment
+
+// Selectively obtain specific values from the array
+const [first, second, , fourth] = arr;
+console.log(first,second,fourth)
