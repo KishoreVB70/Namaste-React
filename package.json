@@ -1,0 +1,24 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Code for Namaste React by Kishore",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KishoreVB70/Namaste-React.git"
+  },
+  "keywords": [
+    "Js",
+    "React",
+    "Kishore"
+  ],
+  "author": "Kishore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KishoreVB70/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/KishoreVB70/Namaste-React#readme"
+}
