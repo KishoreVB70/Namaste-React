@@ -6,13 +6,11 @@ import ReactDOM from "react-dom/client";
 const NormalHeading = React.createElement("h2", {id: "heading1"}, "H One");
 
 // React Functional component -> Return JSXs
-const jsxDiv = () => {
-    return (
-        <div>
-            <h1 id="heading0" >I'm JSX Puffy</h1>
-        </div>
-        )
-};
+const jsxDiv = () => (
+    <div>
+        <h1 id="heading0" >I'm JSX Puffy</h1>
+    </div>
+);
 
 // Arrow function shorthand notation
 const headingElement = () => <h1>Hello Moto</h1>;
