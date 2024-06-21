@@ -8,12 +8,15 @@ let a = "Habibi welcome to puffy Kooty"
 
 const Heading = () => <h1 id="h0" >{a}</h1>;
 
+const heading2 = <h2 id="h0" >{"Habiiibii"}</h2>;
+
+const heading3 = React.createElement("h3", {}, "Haabiiiiiiiiiibiiiii");
+
 const JsxDiv = () => (
     <div>
         <Heading/>
-        {
-            "Habiibii"
-        }
+        {heading2}
+        {heading3}
     </div>
 );
 
