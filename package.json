@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
 }

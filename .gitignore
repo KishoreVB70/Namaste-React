@@ -1,6 +1,6 @@
 # Dependencies
-node_modules/
+node_modules
 
 # Bundler byproducts
-.parcel-cache/
-dist/
+dist
+.parcel-cache
