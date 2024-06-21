@@ -3,23 +3,14 @@ import ReactDOM from "react-dom/client";
 
 // Create React elements(Object) - Not HTML DOM element
 // Return react object 
-const NormalHeading = React.createElement("h2", {id: "heading1"}, "H One");
-
 // React Functional component -> Return JSXs
-const jsxDiv = () => (
+const JsxDiv = () => (
     <div>
-        <h1 id="heading0" >I'm JSX Puffy</h1>
+        <h1 id="h0" >I'm from functional component</h1>
     </div>
 );
 
-// Arrow function shorthand notation
-const headingElement = () => <h1>Hello Moto</h1>;
-
-const child1 = React.createElement("div", {id: "child1"}, NormalHeading);
-
-const parent = React.createElement("div", {id: "parent"}, [child1, jsxDiv]);
-
-
+const parent = React.createElement("div", {id: "parent"}, [<JsxDiv/>]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
